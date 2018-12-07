@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: whitesmoke;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 10px;
+}
+
+#panel {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border: solid 5px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    display: inline-block;
+    margin-top: -100px;
+}
+
+#button {
+    margin: 10px;
+}
